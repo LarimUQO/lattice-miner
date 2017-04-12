@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+  <classpathentry kind="var" path="M2_REPO/javancss/javancss/30.51/javancss-30.51.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javancss/ccl/29.50/ccl-29.50.jar"/>
+  <classpathentry kind="var" path="M2_REPO/javancss/jhbasic/29.50/jhbasic-29.50.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jdom/jdom/1.1/jdom-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/poi/poi/3.14-beta1/poi-3.14-beta1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/poi/poi-ooxml/3.14-beta1/poi-ooxml-3.14-beta1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/poi/poi-ooxml-schemas/3.14-beta1/poi-ooxml-schemas-3.14-beta1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/virtuald/curvesapi/1.03/curvesapi-1.03.jar"/>
+</classpath>
