@@ -1,0 +1,35 @@
+{
+  "name": "dau",
+  "objects": ["MV", "SC", "SDE", "SV", "LDE", "SP", "ME", "TE", "CSE"],
+  "attributes": ["mayOpen", "mayWrite", "mayApprove"],
+  "conditions": ["UM", "MD", "CCD", "ToUD", "IG", "ETID", "DD", "RE"],
+  "relations": [
+    [
+      ["MD", "ToUD", "RE"], [], []
+    ],
+    [
+      ["UM", "MD", "CCD", "ToUD", "ETID", "RE"], ["RE"], ["CCD", "ToUD"]
+    ],
+    [
+      ["UM", "MD", "ToUD", "IG", "ETID", "DD", "RE"], ["UM", "IG", "ETID", "DD"], ["MD"]
+    ],
+    [
+      ["UM", "MD", "CCD", "ToUD", "IG", "ETID", "DD", "RE"], [], ["UM", "MD", "CCD", "ToUD", "IG", "ETID", "DD"]
+    ],
+    [
+      ["UM", "MD", "CCD", "ToUD", "IG", "ETID", "DD", "RE"], ["CCD", "ToUD"], []
+    ],
+    [
+      ["UM", "MD", "ToUD", "IG", "ETID", "RE"], [], []
+    ],
+    [
+      ["UM", "MD", "ToUD", "IG", "ETID", "DD", "RE"], ["MD"], []
+    ],
+    [
+      ["UM", "MD", "ToUD", "IG", "ETID", "DD", "RE"], ["UM", "IG", "ETID", "DD"], []
+    ],
+    [
+      ["UM", "MD", "CCD", "ToUD", "IG", "ETID", "DD", "RE"], ["CCD"], []
+    ]
+  ]
+}
