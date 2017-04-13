@@ -12,7 +12,7 @@
 
 You can download the latest release from [here](https://github.com/LarimUQO/lattice-miner/releases/latest).
 
-Sample of binary and triadic context files are in the the [_files_]](https://github.com/LarimUQO/lattice-miner/tree/master/files) folder.
+Sample of binary and triadic context files are in the the [files](https://github.com/LarimUQO/lattice-miner/tree/master/files) folder.
 
 ## Installation from Source code
 
